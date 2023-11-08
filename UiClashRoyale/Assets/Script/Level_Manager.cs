@@ -10,7 +10,7 @@ public class Level_Manager : MonoBehaviour
 {
     public List<CR_Character> characterz;
     public GameObject soul,soul2,soul3,soul4,soul5,s6,s7,s8,s9,s10,s11,s12,s13,s14,s15,s16,s17,s18,s19,s20,s21,s22,s23,s24,s25,s26,s27,s28,s29,s30,s31,s32,s33,
-        s34,s35,s36,s37,s38,s39,s40,s41,s42,s43,s44,s45,s46,s47,s48,s49,s50,s51,s52,s53,s54;
+        s34,s35,s36,s37,s38,s39,s40,s41,s42,s43,s44,s45,s46,s48,s49,s50,s51,s52,s53,s54;
     public void LoadCharacter(string _FileName)
     {
         string path = Application.dataPath + "/Resources/" + _FileName + ".json";
@@ -124,8 +124,7 @@ public class Level_Manager : MonoBehaviour
         s45.transform.GetChild(1).GetChild(0).GetComponent<TMP_Text>().text = characterz[44].id.ToString();
         s46.transform.GetChild(0).GetChild(0).GetComponent<TMP_Text>().text = characterz[45].name;
         s46.transform.GetChild(1).GetChild(0).GetComponent<TMP_Text>().text = characterz[45].id.ToString();
-        s47.transform.GetChild(0).GetChild(0).GetComponent<TMP_Text>().text = characterz[46].name;
-        s47.transform.GetChild(1).GetChild(0).GetComponent<TMP_Text>().text = characterz[46].id.ToString();
+        
         s48.transform.GetChild(0).GetChild(0).GetComponent<TMP_Text>().text = characterz[47].name;
         s48.transform.GetChild(1).GetChild(0).GetComponent<TMP_Text>().text = characterz[47].id.ToString();
         s49.transform.GetChild(0).GetChild(0).GetComponent<TMP_Text>().text = characterz[48].name;
